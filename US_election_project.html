@@ -20,16 +20,16 @@
 
 <body>
  <h1>US Presidential Election Forcast</h1>
- <p>Last updated: 16.09.2024</p>
+ <p>Last updated: 24.09.2024</p>
 
  <p>The most powerfull man in the world is elected every 4 years. No other election in the world has such a widereaching impact on the world and naturally the election draws a lot of attention. The US system for choosing a president is strange for us Europeans. The winner is the one who wins a plurality in the correct combination of states. The winner does not need to win the greatest number of states or the most votes nationally. This adds an extra layer of challange and strategy to winning an american presidential election. Thanfully this complexity and attention makes for an excellent target for modelling. Therefore, I have developed a data driven model to simulate the outcome of the US presidential election. The model outputs a probability distribution of electoral votes and probability of winning individual states for each candidate. The model is simple yet sufficiently advanced to capture the delecate interplay between states. </p>
 
- <p>The latest prediction is that <b> Kamala Harris</b> has the best chance to win the presidency with a probability of <b>50.48%</b>.</p>
+ <p>The latest prediction is that <b> Donald J. Trump</b> has the best chance to win the presidency with a probability of <b>50.8%</b>.</p>
 
 
 
  <figure>
-  <img src="Fig/Prediction16092024.png" alt="Histogram"><img src="Fig/prediction_states_16092024.png" alt="Probability per state">
+  <img src="Fig/Prediction24092024.png" alt="Histogram"><img src="Fig/prediction_states_24092024.png" alt="Probability per state">
 
  </figure>
 
@@ -58,56 +58,56 @@
 
 <h2>State by state probability</h2>
 
-<table style="text-align:center"><tr><td colspan="3" style="border-bottom: 0px solid black"></td></tr><tr><td style="text-align:left"></td><td>Harris</td><td>Trump</td></tr>
-<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Alabama</td><td>0.013</td><td>0.987</td></tr>
+<<table style="text-align:center"><tr><td colspan="3" style="border-bottom: 0px solid black"></td></tr><tr><td style="text-align:left"></td><td>Harris</td><td>Trump</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Alabama</td><td>0.012</td><td>0.988</td></tr>
 <tr><td style="text-align:left">Alaska</td><td>0.185</td><td>0.815</td></tr>
-<tr><td style="text-align:left">Arizona</td><td>0.461</td><td>0.539</td></tr>
+<tr><td style="text-align:left">Arizona</td><td>0.443</td><td>0.557</td></tr>
 <tr><td style="text-align:left">Arkansas</td><td>0.004</td><td>0.996</td></tr>
-<tr><td style="text-align:left">California</td><td>0.998</td><td>0.002</td></tr>
-<tr><td style="text-align:left">Colorado</td><td>0.922</td><td>0.078</td></tr>
+<tr><td style="text-align:left">California</td><td>1</td><td>0</td></tr>
+<tr><td style="text-align:left">Colorado</td><td>0.926</td><td>0.074</td></tr>
 <tr><td style="text-align:left">Connecticut</td><td>0.999</td><td>0.001</td></tr>
-<tr><td style="text-align:left">Delaware</td><td>0.997</td><td>0.003</td></tr>
-<tr><td style="text-align:left">Florida</td><td>0.283</td><td>0.717</td></tr>
-<tr><td style="text-align:left">Georgia</td><td>0.462</td><td>0.537</td></tr>
+<tr><td style="text-align:left">Delaware</td><td>0.998</td><td>0.002</td></tr>
+<tr><td style="text-align:left">Florida</td><td>0.282</td><td>0.718</td></tr>
+<tr><td style="text-align:left">Georgia</td><td>0.427</td><td>0.573</td></tr>
 <tr><td style="text-align:left">Hawaii</td><td>1</td><td>0</td></tr>
-<tr><td style="text-align:left">Idaho</td><td>0.015</td><td>0.985</td></tr>
+<tr><td style="text-align:left">Idaho</td><td>0.016</td><td>0.984</td></tr>
 <tr><td style="text-align:left">Illinois</td><td>0.97</td><td>0.03</td></tr>
-<tr><td style="text-align:left">Indiana</td><td>0.102</td><td>0.898</td></tr>
+<tr><td style="text-align:left">Indiana</td><td>0.101</td><td>0.899</td></tr>
 <tr><td style="text-align:left">Iowa</td><td>0.443</td><td>0.557</td></tr>
-<tr><td style="text-align:left">Kansas</td><td>0.062</td><td>0.938</td></tr>
-<tr><td style="text-align:left">Kentucky</td><td>0.03</td><td>0.97</td></tr>
-<tr><td style="text-align:left">Louisiana</td><td>0.008</td><td>0.992</td></tr>
-<tr><td style="text-align:left">Maine</td><td>0.937</td><td>0.063</td></tr>
+<tr><td style="text-align:left">Kansas</td><td>0.065</td><td>0.935</td></tr>
+<tr><td style="text-align:left">Kentucky</td><td>0.031</td><td>0.969</td></tr>
+<tr><td style="text-align:left">Louisiana</td><td>0.009</td><td>0.991</td></tr>
+<tr><td style="text-align:left">Maine</td><td>0.936</td><td>0.064</td></tr>
 <tr><td style="text-align:left">Maryland</td><td>1</td><td>0</td></tr>
 <tr><td style="text-align:left">Massachusetts</td><td>1</td><td>0</td></tr>
-<tr><td style="text-align:left">Michigan</td><td>0.576</td><td>0.424</td></tr>
-<tr><td style="text-align:left">Minnesota</td><td>0.797</td><td>0.203</td></tr>
-<tr><td style="text-align:left">Mississippi</td><td>0.035</td><td>0.965</td></tr>
-<tr><td style="text-align:left">Missouri</td><td>0.176</td><td>0.824</td></tr>
-<tr><td style="text-align:left">Montana</td><td>0.302</td><td>0.699</td></tr>
-<tr><td style="text-align:left">Nebraska</td><td>0.126</td><td>0.874</td></tr>
-<tr><td style="text-align:left">Nevada</td><td>0.503</td><td>0.497</td></tr>
-<tr><td style="text-align:left">New Hampshire</td><td>0.814</td><td>0.186</td></tr>
-<tr><td style="text-align:left">New Jersey</td><td>0.991</td><td>0.009</td></tr>
-<tr><td style="text-align:left">New Mexico</td><td>0.913</td><td>0.087</td></tr>
-<tr><td style="text-align:left">New York</td><td>0.875</td><td>0.125</td></tr>
-<tr><td style="text-align:left">North Carolina</td><td>0.479</td><td>0.521</td></tr>
-<tr><td style="text-align:left">North Dakota</td><td>0.022</td><td>0.978</td></tr>
-<tr><td style="text-align:left">Ohio</td><td>0.112</td><td>0.888</td></tr>
-<tr><td style="text-align:left">Oklahoma</td><td>0.004</td><td>0.996</td></tr>
-<tr><td style="text-align:left">Oregon</td><td>0.994</td><td>0.006</td></tr>
-<tr><td style="text-align:left">Pennsylvania</td><td>0.52</td><td>0.48</td></tr>
+<tr><td style="text-align:left">Michigan</td><td>0.622</td><td>0.378</td></tr>
+<tr><td style="text-align:left">Minnesota</td><td>0.781</td><td>0.219</td></tr>
+<tr><td style="text-align:left">Mississippi</td><td>0.032</td><td>0.968</td></tr>
+<tr><td style="text-align:left">Missouri</td><td>0.054</td><td>0.946</td></tr>
+<tr><td style="text-align:left">Montana</td><td>0.303</td><td>0.697</td></tr>
+<tr><td style="text-align:left">Nebraska</td><td>0.129</td><td>0.871</td></tr>
+<tr><td style="text-align:left">Nevada</td><td>0.529</td><td>0.471</td></tr>
+<tr><td style="text-align:left">New Hampshire</td><td>0.83</td><td>0.17</td></tr>
+<tr><td style="text-align:left">New Jersey</td><td>0.992</td><td>0.008</td></tr>
+<tr><td style="text-align:left">New Mexico</td><td>0.873</td><td>0.127</td></tr>
+<tr><td style="text-align:left">New York</td><td>0.878</td><td>0.122</td></tr>
+<tr><td style="text-align:left">North Carolina</td><td>0.475</td><td>0.525</td></tr>
+<tr><td style="text-align:left">North Dakota</td><td>0.021</td><td>0.979</td></tr>
+<tr><td style="text-align:left">Ohio</td><td>0.103</td><td>0.897</td></tr>
+<tr><td style="text-align:left">Oklahoma</td><td>0.003</td><td>0.997</td></tr>
+<tr><td style="text-align:left">Oregon</td><td>0.993</td><td>0.007</td></tr>
+<tr><td style="text-align:left">Pennsylvania</td><td>0.565</td><td>0.435</td></tr>
 <tr><td style="text-align:left">Rhode Island</td><td>1</td><td>0</td></tr>
-<tr><td style="text-align:left">South Carolina</td><td>0.212</td><td>0.788</td></tr>
+<tr><td style="text-align:left">South Carolina</td><td>0.205</td><td>0.795</td></tr>
 <tr><td style="text-align:left">South Dakota</td><td>0.036</td><td>0.964</td></tr>
-<tr><td style="text-align:left">Tennessee</td><td>0.055</td><td>0.945</td></tr>
-<tr><td style="text-align:left">Texas</td><td>0.204</td><td>0.796</td></tr>
-<tr><td style="text-align:left">Utah</td><td>0.128</td><td>0.871</td></tr>
+<tr><td style="text-align:left">Tennessee</td><td>0.054</td><td>0.946</td></tr>
+<tr><td style="text-align:left">Texas</td><td>0.208</td><td>0.792</td></tr>
+<tr><td style="text-align:left">Utah</td><td>0.125</td><td>0.875</td></tr>
 <tr><td style="text-align:left">Vermont</td><td>1</td><td>0</td></tr>
-<tr><td style="text-align:left">Virginia</td><td>0.85</td><td>0.15</td></tr>
+<tr><td style="text-align:left">Virginia</td><td>0.818</td><td>0.182</td></tr>
 <tr><td style="text-align:left">Washington</td><td>0.997</td><td>0.003</td></tr>
 <tr><td style="text-align:left">West Virginia</td><td>0</td><td>1</td></tr>
-<tr><td style="text-align:left">Wisconsin</td><td>0.643</td><td>0.357</td></tr>
+<tr><td style="text-align:left">Wisconsin</td><td>0.6</td><td>0.4</td></tr>
 <tr><td style="text-align:left">Wyoming</td><td>0</td><td>1</td></tr>
 <tr><td style="text-align:left">District of Columbia</td><td>1</td><td>0</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr></table>
