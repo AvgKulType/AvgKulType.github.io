@@ -18,70 +18,75 @@
 </header>
 
 <h2>Current Projects:</h2>
+<hr>
 
-<h4>Predicting the 2024 US Presidential Election</h4>
-<p>This is a hobby project where I created a stochastic model to predict the outcome of the 2024 U.S. Presidential Election.</p>
-<p><a style="color: #263238" href="US_election_project.html">Click here to read more.</a></p>
 
-<h4>Does it Pay to be Green? Investigating Alternative Fuel Premium in Vessel Value Using Machine Learning</h4>
-<p>Details about this project are not provided yet.</p>
-<p>2024</p>
-<p>This project was presented at IAME2024 and is meant to be a shorter conferance paper.</p>
+<h4>Does Fuel Choice Matter? Investigating Fuel	Choice Impact on Vessel Value and Freight Rates</h4>
+<p>2025</p>
+<p>This project was presented at IAME2024.</p>
 <p><b>Abstract:</b><br>
-	With the dangers of a changing climate starting to become apparent to many the push for lower
-	emissions of greenhouse gases has reached the maritime industry. One of the possible actions
-	to reduce the emissions from the maritime industry is to move away from traditional fuels like
-	heavy oil and marine diesel to alternative fuels with lower emissions like LNG and ammonia.
-	This is not unproblematic as these fuels generally are more expensive and demand investments.
-	This paper aims to understand how alternative fuels affect the value of vessels. We employ a
-	wide array of machine-learning techniques to estimate the effect of vessel fuels on value. Our
-	findings suggest that there might be a premium, but if there is then the premium might be small.
+	With a rising awareness of climate change and Greenhouse Gas (GHG)
+	emissions, there has been a push towards alternative fuels in the maritime
+	industry. In this paper, we use linear regression, adaptive lasso regression,
+	and XGBoost on a novel dataset of transactions in the freight market and
+	second-hand vessel market for gas carriers to investigate the effect of fuel
+	choice on vessel value. We find evidence that choosing alternative fuels
+	does not affect the vessel's value either positively or negatively, or the
+	freight rate the vessel obtain in freight markets.
 </p>
+<p><a style="color: #263238" href="Files/Fuel_Choice_and_Vessel_Value.pdf" download="Fuel_Choice_and_Vessel_Value">Click to Download</a></p>
+<br>
+<br>
 
 
 
-<h4>How Much Does Rain Cost? Modeling Weather Delay in Bulk Shipping</h4>
-<p>2024</p>
-<p>This is planned to be a chapter in my dissertation.</p>
+<h4>The Cost of Weather: Modeling Weather Delay in Bulk Shipping</h4>
+<p>2025</p>
+<p> Published in the Dept. of Business and Management Science Discussion Paper series</p>
 <p><b>Abstract:</b><br>
-	It is well known that shipping is exposed to weather. Some vessels choose 
-	routes based on weather conditions, foggy conditions can affect the risk of accidents, and
-	so on. This paper investigates how weather, in particular precipitation,
-	can affect the time in port for a vessel. We employ advanced statistical
-	tools like Generalized Additive Models (GAMs) to model delays in port
-	due to weather for port calls at six ports on three continents. We consider
-	how climatic conditions like the El-Niño cycle and seasonality affect the
-	length of delays for different ports. Moreover, we investigate how much money
-	is lost due to delays, and compare an industry standard of expecting half a 
-	day delay for a port call to the actual delays encountered. We find that
-	assuming half a day can in some ports lead to a relative error of over 150%
-	and almost $10,000. Lastly, we propose a model for estimating how much can
-	be expected to be lost in USD for a voyage. This is useful for the industry when
-	fixing vessels for voyages and in other chartering decisions.
+	Weather is an ever-present factor influencing shipping operations at
+	every stage, including port operations. This paper examines the determi-
+	nants of weather-induced delays in port operations, the probability and
+	duration of such delays, the predictive capability of various statistical
+	models, and the potential for improving upon standard industry methods
+	for estimating port margins. A wide range of models are investigated,
+	including Generalized Linear (GLM) models, Cox Propotional Hazard
+	models, and Autoregressive Conditional Duration (ACD) models. The
+	findings reveal that a GLM with gamma distributed dependent variables
+	provides the best fit for data on delay duration, while a linear multiple
+	regression offers the highest predictive accuracy for delay duration. Sim-
+	ilarly, probit and logit models are found to perform comparably well for
+	both predicting delay probabilities and data fit. Moreover, the analysis
+	demonstrates that there are significant potential cost savings when using
+	a linear regression model with a probit model to predict delays compared
+	to a common industry rule-of-thumb of half a day delay. These results
+	underscore the potential for improving operational efficiency and accuracy
+	in port margin estimation through statistical modeling techniques
 </p>
+<p><a style="color: #263238" href="Files/ssrn-5123997.pdf" download="ssrn-5123997">Click to Download</a></p>
+<p><a style="color: #263238" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5123997">SSRN-link</a></p>
+<br>
+<br>
 
-<h4>Ups and Downs</h4>
+<h4>Ups and downs: Modeling Shipping Freight Rates in a Markov Regime Switching Framework</h4>
 <p>2024</p>
-<p>A joint paper with Prof. Haiying Jia and is planned to be a chapter in my dissertation.</p>
+<p>A joint paper with Prof. Haiying Jia.</p>
 <p><b>Abstract:</b><br>
-	The shipping industry is famous for its ups and downs. The fortunes of
-	shipowners have always been interwoven with the great events of history
-	like war and peace. Huge amounts of wealth have been lost and gained in a
-	matter of weeks. What are the dynamics in the different regimes? This paper
-	aims to study the stochastic properties of the shipping spot rate during
-	“good” times and “bad” times in the context of a mean-reverting Ornstein-
-	Uhlenbeck process with Markov regime-switching. Firstly, we use economic
-	theory to justify why there should be two distinct regimes. Then
-	we propose a continuous-time model of the spot freight rates. Thirdly,
-	we use a Markov regime-switching model to estimate a discrete version
-	of the model. Our results show that the different regimes have different
-	levels of volatility, and for tankers, different strengths of mean reversion.
-	Lastly, we study the transition probabilities between the regimes in an
-	exogenous and an endogenous manner. Here we find that the current level
-	of the shipping rate is a significant factor in modeling the probability of
-	transitioning between regimes.
-</p>
-<a style="color: #263238" href="Files/Ups and downs Geilo Draft.pdf" download="Ups and downs Geilo Draft.pdf">Click to Download</a>
+	n this paper, we employ economic theory to examine the supply-
+	demand relationship in the freight market to assess the stochastic dynam-
+	ics during different marked conditions. We propose the existence of two
+	distinct regimes: elastic and inelastic tonnage supply situations. To em-
+	pirically investigate these regimes, we apply a Markov regime-switching
+	model to estimate a discrete autoregressive regime-switching model using
+	freight rate data for Handysize, Panamax, and Capsized dry bulk vessels
+	as well as Aframax, Suezmax, and VLCC crude oil tankers, represented
+	by the Baltic indexes for these vessel types and sizes. Our findings indi-
+	cate that these regimes exhibit differing volatility levels and, in the case of
+	tanker vessels, distinct patterns mean reversion. Furthermore, we analyze
+	the transition probabilities between regimes, revealing that the current
+	shipping rate level is a significant factor in modeling the probability be-
+	tween supply regimes.</p>
+<a style="color: #263238" href="Files/Modelling_spot_rates_in_shipping__a_regime_switching_OU-9.pdf" download="Modelling_spot_rates_in_shipping__a_regime_switching_OU-9">Click to Download</a>
 <br>
 <br>
 
@@ -91,6 +96,12 @@
 
 
 <h2>Past Projects</h2>
+<br>
+<h4>Predicting the 2024 US Presidential Election</h4>
+<p>This is a hobby project where I created a stochastic model to predict the outcome of the 2024 U.S. Presidential Election.</p>
+<p><a style="color: #263238" href="US_election_project.html">Click here to read more.</a></p>
+<br>
+<br>
 
 <h4>Injuries at Sea: A Geo-Spatial Analysis of Marine Accidents</h4>
 <p>2023</p>
